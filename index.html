@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Entry</h1>
+        <form action="submit.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="text" name="letter" id="letter" placeholder="Letter">
+            <input type="text" name="datetime" id="datetime" placeholder="Date/Time">
+            <button type="submit">Add</button>
+        </form>
+        <table id="dataTable">
+            <tr>
+                <th>Name</th>
+                <th>Letter</th>
+                <th>Date/Time</th>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
